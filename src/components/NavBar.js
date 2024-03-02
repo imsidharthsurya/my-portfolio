@@ -19,9 +19,23 @@ const NavBar = () => {
             }
             
         </ul>
-        <div onClick={()=>setShowNavBar(!showNavBar)} className='cursor-pointer pr-4 z-10 text-gray-500'>
+
+        {/* md:hidden b/c on screen larger than medium we don't want to show mobile navbar & can't toggle value so it won't show */}
+        <div onClick={()=>setShowNavBar(!showNavBar)} className='cursor-pointer pr-4 z-10 text-gray-500 md:hidden'>
            {showNavBar?<FaTimes size={30}/>:<FaBars size={30} />} 
         </div>
+
+        {/* since show the navbar items on center only if show navbar is true */}
+        {showNavBar && <ul className='flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-black to-gray-800 text-gray-500'>
+            
+            {
+                links.map((link)=>{
+                    return <li key={link.id} className='capitalize cursor-pointer px-4 py-6 text-4xl'>{link.link}</li>
+                })
+            }
+            
+        </ul>}
+        
     </div>
   )
 }
