@@ -8,10 +8,12 @@ const About = () => {
                 <p className='text-4xl font-bold inline border-b-4 border-gray-500'>About</p>
             </div>
             <p className='text-xl mt-5'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, atque a reprehenderit soluta repellendus delectus ipsa dolore mollitia vero dolorum impedit accusantium iste adipisci molestias veniam, quod quibusdam nihil autem id nostrum incidunt labore porro tenetur! Asperiores aperiam voluptatibus amet itaque cumque sapiente similique sint, neque quas voluptates odit nesciunt?
+            I am currently employed as a Developer at IDFC FIRST BANK, where I'm dedicated to enhancing customer experiences and optimizing communication processes. Previously, as an Intern at Zoho Corporation, I contributed to building diverse plugins for monitoring customer's servers & systems.
             </p>
             <br/>
-            <p className='text-xl'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus atque ipsa deleniti repellendus sed provident consectetur vero similique, esse earum impedit mollitia odio eaque in illo nostrum necessitatibus vel placeat sapiente blanditiis. Doloribus possimus, obcaecati commodi ea quibusdam aspernatur in, iure quas nostrum, provident voluptatum ipsa. Soluta molestias aliquam harum.</p>
+            <p className='text-xl'>
+            Successfully completing numerous full-stack projects and creating multiple IVR & chat bots, I thrive on navigating intricate problems and embracing fresh challenges. Let's connect and explore the exciting intersections of technology! My commitment to staying ahead of the curve drives me to continuously explore emerging technologies. 🚀
+            </p>
         </div>
     </div>
   )

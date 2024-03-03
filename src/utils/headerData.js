@@ -13,7 +13,7 @@ export const links=[
     },
     {
         id:4,
-        link:"experience"
+        link:"tech stack"
     },
     {
         id:5,

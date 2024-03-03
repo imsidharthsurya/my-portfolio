@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import {FaBars,FaTimes} from "react-icons/fa"
 import { links } from '../utils/headerData'
+import {Link} from "react-scroll"
 
 const NavBar = () => {
     // initially the nav item will be hidden by default
@@ -14,7 +15,9 @@ const NavBar = () => {
         <ul className='hidden md:flex'>
             {
                 links.map((link)=>{
-                    return <li key={link.id} className='px-4 capitalize cursor-pointer font-medium text-gray-500 hover:scale-105 duration-200'>{link.link}</li>
+                    return <li key={link.id} className='px-4 capitalize cursor-pointer font-medium text-gray-500 hover:scale-105 duration-200'>
+                            <Link to={link.link} smooth duration={500}>{link.link}</Link>
+                        </li>
                 })
             }
             
@@ -30,7 +33,9 @@ const NavBar = () => {
             
             {
                 links.map((link)=>{
-                    return <li key={link.id} className='capitalize cursor-pointer px-4 py-6 text-4xl'>{link.link}</li>
+                    return <li key={link.id} className='capitalize cursor-pointer px-4 py-6 text-4xl'>
+                        <Link onClick={()=>setShowNavBar(!showNavBar)} to={link.link} smooth duration={500}>{link.link}</Link>
+                    </li>
                 })
             }
             
