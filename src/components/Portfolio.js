@@ -1,10 +1,10 @@
 import React from "react";
-import installNode from "../assets/portfolio/installNode.jpg";
-import reactWeather from "../assets/portfolio/reactWeather.jpg";
 import pic1 from "../assets/portfolio/p1.png"
 import pic2 from "../assets/portfolio/p2.png"
 import pic3 from "../assets/portfolio/p3.png"
 import pic4 from "../assets/portfolio/p4.png"
+import pic5 from "../assets/portfolio/p5.png"
+import pic6 from "../assets/portfolio/p6.png"
 
 const Portfolio = () => {
   const portfolios = [
@@ -31,24 +31,24 @@ const Portfolio = () => {
     },
     {
       id: 4,
+      src: pic5,
+      name:"Gradious Technologies Admin Quiz page",
+      demoUrl:"https://github.com/imsidharthsurya/gradious-admin-quiz-page",
+      codeUrl:"https://github.com/imsidharthsurya/gradious-admin-quiz-page"
+    },
+    {
+      id: 5,
+      src: pic6,
+      name:"Loan Calculator",
+      demoUrl:"https://github.com/imsidharthsurya/loan-calculator",
+      codeUrl:"https://github.com/imsidharthsurya/loan-calculator"
+    },
+    {
+      id: 6,
       src: pic4,
       name:"Microsoft 365 Plugin",
       demoUrl:"https://www.site24x7.com/community/microsoft-365-subscription-license-plugin",
       codeUrl:"https://github.com/site24x7/plugins/tree/master/Microsoft365ProductsSubscriptionLicenseCheck"
-    },
-    {
-      id: 5,
-      src: installNode,
-      name:"My Youtube",
-      demoUrl:"https://github.com/imsidharthsurya/youtube-app",
-      codeUrl:"https://github.com/imsidharthsurya/youtube-app"
-    },
-    {
-      id: 6,
-      src: reactWeather,
-      name:"My Youtube",
-      demoUrl:"https://github.com/imsidharthsurya/youtube-app",
-      codeUrl:"https://github.com/imsidharthsurya/youtube-app"
     },
   ];
 

@@ -59,12 +59,6 @@ const Experience = () => {
       style: "shadow-blue-500",
     },
     {
-      id: 8,
-      src: docker,
-      title: "Docker",
-      style: "shadow-blue-400",
-    },
-    {
       id: 9,
       src: tailwind,
       title: "Tailwind",
@@ -88,6 +82,12 @@ const Experience = () => {
       title: "GitHub",
       style: "shadow-gray-400",
     },
+    {
+      id: 8,
+      src: docker,
+      title: "Docker",
+      style: "shadow-blue-400",
+    }
   ];
 
   return (
